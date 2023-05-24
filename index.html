@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>DevAsish</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar">
+        <a href="#home" class="nav-brand"><h1>AceSh</h1></a>
+
+        <ul class="navlist">
+          <li class="navitem"><a href="#home" class="nav-link">Home</a></li>
+          <li class="navitem"><a href="#aboutMe" class="nav-link">About</a></li>
+          <li class="navitem">
+            <a href="#mySkill" class="nav-link">Skills</a>
+          </li>
+          <li class="navitem">
+            <a href="#myProject" class="nav-link">Project</a>
+          </li>
+          <li class="navitem">
+            <a href="#myContact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="ham">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content">
+      <img src="img/me.jpg" class="me" alt="Asish" height="200px" />
+      <hr />
+      <p class="name">
+        Hello! I am <span>A</span>sish<span> B</span>handari. <br />
+        I am a web designer...
+      </p>
+    </div>
+
+    <section class="about" id="aboutMe">
+      <h2>About Me</h2>
+
+      <div class="abt">
+        <img src="img/smart.jpg" class="abt-img" alt="me" height="300px" />
+        <p class="abtme">
+          Hello, I'm Asish Bhandari, a passionate web designer dedicated to
+          creating visually stunning and user-friendly websites.
+          <br />
+          <br />
+          I prioritize user experience, employing a user-centered design
+          approach to create intuitive and seamless interfaces.
+          <br />
+          <br />
+          In my toolkit, I harness the power of HTML, CSS, JavaScript, and other
+          relevant technologies to craft functional and visually compelling
+          websites.
+          <br />
+          <br />
+          "Let's create something exceptional together!"
+        </p>
+      </div>
+    </section>
+
+    <section class="skills" id="mySkill">
+      <h2>Skill</h2>
+      <div class="skill">
+        <div class="skill1">
+          <img src="img/1.jpg" alt="skill" height="180px" />
+
+          <p class="title">
+            <strong>UI/UX</strong>
+          </p>
+          <hr />
+          <p class="sp">
+            - User Research and Persona Development <br />
+            <br />
+            - Wireframing and Prototyping(Sketch, Figma) <br />
+            <br />
+            - Visual Design and Branding <br />
+            <br />
+            - Interaction Design andUser Flow <br />
+            <br />
+            - Responsive Design and Mobile-first Approach <br />
+            <br />
+          </p>
+        </div>
+        <div class="skill2">
+          <img src="img/2.jpg" alt="skill" height="180px" />
+
+          <p class="title"><strong>SEO</strong></p>
+          <hr />
+          <p class="sp">
+            - Keyword Research and Analysis <br />
+            <br />
+            - On-page Optimization (Meta tags, content optimization, URL
+            structure) <br />
+            <br />
+            - Off-page Optimization (Link building, outreach, social media)
+            <br />
+            <br />
+            - Technical SEO (Site speed optimization) <br />
+            <br />
+            - Content Strategy and Optimization <br /><br />
+          </p>
+        </div>
+
+        <div class="skill3">
+          <img src="img/3.jpg" alt="skill" height="180px" />
+
+          <p class="title"><strong>WEB DESIGN</strong></p>
+          <hr />
+          <p class="sp">
+            - Web Design and Development <br />
+            <br />
+            - HTML5, CSS3, JavaScript <br />
+            <br />
+            - Responsive Design and Mobile Optimization <br />
+            <br />
+            - User Interface (UI) Design <br />
+            <br />
+            - User Experience (UX) Design <br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="myProject">
+      <h2>Project</h2>
+      <div class="p1">
+        <img src="img/1.jpg" alt="skill" height="180px" />
+
+        <p class="title">
+          <strong
+            ><a
+              href="https://cynic-ace.github.io/guess-num.github.io/"
+              target="_blank"
+              style="color: antiquewhite"
+              >Guess Number</a
+            ></strong
+          >
+        </p>
+        <hr />
+        <p class="sp">Number guessing game with javascript.</p>
+        <br />
+
+        <a
+          href="https://cynic-ace.github.io/guess-num.github.io/"
+          target="_blank"
+        >
+          <button class="see">See Project</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact" id="myContact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <form
+          action="https://formcarry.com/s/pAiUyLoGF_"
+          method="POST"
+          accept-charset="UTF-8"
+        >
+          <label for="name">Full Name</label> <br />
+          <input
+            type="text"
+            name="firstName"
+            placeholder="Full Name"
+            required
+          />
+          <br />
+          <label for="email">Email</label> <br />
+          <input type="email" name="email" placeholder="Email" required />
+          <br />
+          <label for="Phone Number">Phone number</label> <br />
+          <input
+            type="number"
+            name="number"
+            placeholder="Phone Number"
+            required
+          />
+          <br />
+          <input type="hidden" name="_gotcha" />
+          <input type="submit" name="submit" class="submit" />
+
+          <!-- use this to prevent spam -->
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>All Rights Reserved © | Asish 2023</p>
+      <br />
+      <h3>Follow Me :</h3>
+      <div class="social-icon">
+        <p class="social">
+          <a href="https://www.facebook.com/aceesh.bhandari/" target="_blank"
+            ><i class="fa-brands fa-facebook fa-2xl"></i
+          ></a>
+        </p>
+        <p class="social">
+          <a
+            href="https://www.instagram.com/_acesh___/?next=%2F"
+            target="_blank"
+            ><i class="fa-brands fa-instagram fa-2xl"></i
+          ></a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
